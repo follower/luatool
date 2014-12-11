@@ -112,7 +112,7 @@ if __name__ == '__main__':
                 raise ValueError, "Baudrate must be a integer number, not %r" % a
         elif o in ("-f", "--file"):     #specified file from
             fn = a
-        elif o in ("-t", "--fo"):       #specified file to
+        elif o in ("-t", "--to"):       #specified file to
             ft = a
         if o in ("-r", "--restart"):    # autorestart
             autorestart = 1
